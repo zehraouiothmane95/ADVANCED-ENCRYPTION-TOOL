@@ -5,22 +5,16 @@
 *DOMAIN* :Cyber Security & Ethical Hacking
 *DURATION* :4 weeks
 *MENTOR* :NELA SANTHOSH.
+
 I HAVE USED A PYTHON SCRIPTUSING LIBRARIES LIKE HASHLIB TO
 ENSURE FILE INTEGRITY AND I USED THE PLATFORMS LIKE GOOGLE ONLINE PYTHON COMPLIER FROM ONE COMPLIER WEBSITE FROM GOOGLE...
+
 🔐 AES Encryption Tool – Secure Your Files with AES-256
+
 📌 Overview
+
 🔒 AES-Encryption-Tool is a powerful and easy-to-use application for encrypting and decrypting files using AES-256 encryption. It ensures data confidentiality with a simple, user-friendly interface designed for both beginners and professionals.
-COMPANY: CODETECH IT SOLUTIONS
 
-NAME: GYANMOTAY VIKAS
-
-INTERN ID: CT12RGV
-
-DOMAIN: CYBER SECURITY & ETHICAL HACKING
-
-DURATION: 8 WEEKS
-
-MENTOR: NELLA SANTOSH
 
 🚀 Key Features
 ✔️ AES-256 Encryption (GCM Mode) – Industry-standard security
@@ -36,6 +30,7 @@ MENTOR: NELLA SANTOSH
 ✔️ Fast & Efficient – Lightweight tool with high-speed encryption
 
 ⚙️ How It Works
+
 1️⃣ Select a file to encrypt or decrypt.
 
 2️⃣ Enter a strong password to protect the file.
@@ -100,13 +95,4 @@ git push origin feature-branch
 
 Create a Pull Request, and we’ll review it!
 
-👨‍💻 Author
-📌 Gyanmotay Vikas
-
-🔗 GitHub: github.com/VikasOffical
-🔗 LinkedIn: linkedin.com/in/gyanmotay-vikas-62471126b
-
-⭐ Support & Feedback
-If you like this project, consider giving it a star ⭐!Got feedback? Feel free to open an issue or reach out!
-
-OUTPUT
+output
