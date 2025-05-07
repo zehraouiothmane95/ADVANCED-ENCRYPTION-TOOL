@@ -96,3 +96,4 @@ git push origin feature-branch
 Create a Pull Request, and we’ll review it!
 
 output
+<img width="375" alt="Image" src="https://github.com/user-attachments/assets/5dc96881-d43c-41ca-a2a6-9647e0aa499b" />
