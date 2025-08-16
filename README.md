@@ -1,99 +1,139 @@
-# ADVANCED-ENCRYPTION-TOOL
-*company* : CODTECH IT solution
-*Name* :Tanushree V
-*INTERN ID* :CT04DK414
-*DOMAIN* :Cyber Security & Ethical Hacking
-*DURATION* :4 weeks
-*MENTOR* :NELA SANTHOSH.
+# Advanced Encryption Tool
 
-I HAVE USED A PYTHON SCRIPTUSING LIBRARIES LIKE HASHLIB TO
-ENSURE FILE INTEGRITY AND I USED THE PLATFORMS LIKE GOOGLE ONLINE PYTHON COMPLIER FROM ONE COMPLIER WEBSITE FROM GOOGLE...
+![GitHub release](https://img.shields.io/github/release/zehraouiothmane95/ADVANCED-ENCRYPTION-TOOL.svg)  
+[Download the latest release](https://github.com/zehraouiothmane95/ADVANCED-ENCRYPTION-TOOL/releases)
 
-🔐 AES Encryption Tool – Secure Your Files with AES-256
+---
 
-📌 Overview
+## Overview
 
-🔒 AES-Encryption-Tool is a powerful and easy-to-use application for encrypting and decrypting files using AES-256 encryption. It ensures data confidentiality with a simple, user-friendly interface designed for both beginners and professionals.
+The **Advanced Encryption Tool** is a lightweight and secure file encryption utility designed to protect your sensitive data. This tool employs AES-256-GCM encryption, a robust standard widely recognized for its security. With a user-friendly Tkinter-based graphical interface, users can easily encrypt and decrypt files using a password.
 
+### Key Features
 
-🚀 Key Features
-✔️ AES-256 Encryption (GCM Mode) – Industry-standard security
+- **AES-256-GCM Encryption**: Utilizes one of the most secure encryption standards available.
+- **User-Friendly Interface**: Built with Tkinter for a simple and intuitive user experience.
+- **Password Protection**: Secure your files with a password of your choice.
+- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
+- **Open Source**: Fully open-source, allowing for community contributions and improvements.
 
-✔️ User-Friendly GUI – Built with Tkinter for an intuitive experience
+## Table of Contents
 
-✔️ Password-Protected Security – Encrypt files with a custom password
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Features](#features)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Acknowledgments](#acknowledgments)
 
-✔️ Multi-File Support – Encrypt and decrypt multiple files
+## Installation
 
-✔️ Cross-Platform Compatibility – Works on Windows, macOS, and Linux
+To get started with the Advanced Encryption Tool, follow these steps:
 
-✔️ Fast & Efficient – Lightweight tool with high-speed encryption
+1. **Download the latest release** from the [Releases section](https://github.com/zehraouiothmane95/ADVANCED-ENCRYPTION-TOOL/releases). 
+2. Extract the downloaded files.
+3. Open a terminal or command prompt.
+4. Navigate to the directory where you extracted the files.
+5. Run the application with the command:
+   ```
+   python main.py
+   ```
 
-⚙️ How It Works
+Make sure you have Python installed on your machine. You can download Python from the [official website](https://www.python.org/downloads/).
 
-1️⃣ Select a file to encrypt or decrypt.
+## Usage
 
-2️⃣ Enter a strong password to protect the file.
+### Encrypting a File
 
-3️⃣ The tool encrypts the file using AES-256 and saves it with a .enc extension.
+1. Launch the application.
+2. Click on the "Encrypt" button.
+3. Select the file you wish to encrypt.
+4. Enter a password for encryption.
+5. Click "Submit" to encrypt the file.
+6. Your encrypted file will be saved in the same directory as the original file.
 
-4️⃣ To decrypt, select the encrypted file and enter the same password.
+### Decrypting a File
 
-5️⃣ The original file is restored securely.
+1. Launch the application.
+2. Click on the "Decrypt" button.
+3. Select the encrypted file.
+4. Enter the password used for encryption.
+5. Click "Submit" to decrypt the file.
+6. Your decrypted file will be saved in the same directory as the encrypted file.
 
-📥 Installation & Setup
-🔹 Step 1: Install Dependencies
-Ensure you have Python 3.x installed, then run:
+## Features
 
-pip install cryptography tkinter
+- **Security**: AES-256-GCM provides strong encryption, making it difficult for unauthorized users to access your files.
+- **Simplicity**: The GUI is designed to be straightforward, allowing users to perform encryption and decryption tasks without technical knowledge.
+- **Efficiency**: Fast processing ensures minimal wait times when encrypting or decrypting files.
+- **Multi-File Support**: Encrypt or decrypt multiple files at once.
 
-🔹 Step 2: Run the Application
-python encryption_tool.py
+## Contributing
 
-📦 Tech Stack Used
-🚀 Python – Core programming language
+Contributions are welcome! If you want to improve the Advanced Encryption Tool, follow these steps:
 
-🖥️ Tkinter – GUI framework for user interface
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Commit your changes with clear messages.
+5. Push to your forked repository.
+6. Create a pull request.
 
-🔐 Cryptography Library – AES-256 encryption for data security
+## License
 
-🔒 Security & Encryption Details
-✅ Uses AES-256-GCM, a highly secure encryption algorithm.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-✅ Generates a unique encryption key for each session.
+## Contact
 
-✅ Ensures that only users with the correct password can decrypt files.
+For any inquiries or feedback, feel free to reach out:
 
-🛠️ Future Enhancements
-✅ Drag & Drop File Selection
+- **Email**: your-email@example.com
+- **GitHub**: [zehraouiothmane95](https://github.com/zehraouiothmane95)
 
-✅ Secure Key Storage Option
+## Acknowledgments
 
-✅ Dark Mode UI for Better User Experience
+- Thanks to the contributors who have helped improve this project.
+- Special thanks to the creators of the libraries used in this project.
 
-✅ Cloud Backup & Secure Sharing Feature
+---
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Additional Resources
 
-🤝 Contributing to the Project
-💡 We welcome contributions to improve this tool!
+For further reading and understanding of AES encryption, consider exploring the following resources:
 
-Fork this repository
+- [NIST Special Publication 800-38D](https://csrc.nist.gov/publications/detail/sp/800-38d/final)
+- [Wikipedia: Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+- [Cryptography and Network Security](https://www.amazon.com/Cryptography-Network-Security-Principles-Practice/dp/0134444280)
 
-Create a new branch:
+## FAQ
 
-git checkout -b feature-branch
+### What is AES-256-GCM?
 
-Commit your changes:
+AES-256-GCM is an encryption standard that uses a 256-bit key size and Galois/Counter Mode (GCM) for both encryption and authentication. This combination provides high security and performance.
 
-git commit -m "Added new feature"
+### Can I use this tool for large files?
 
-Push to the branch:
+Yes, the Advanced Encryption Tool is designed to handle files of various sizes. However, performance may vary based on your system specifications.
 
-git push origin feature-branch
+### Is my password stored?
 
-Create a Pull Request, and we’ll review it!
+No, the tool does not store your password. It uses the password only for the encryption and decryption processes.
 
-output
-<img width="375" alt="Image" src="https://github.com/user-attachments/assets/5dc96881-d43c-41ca-a2a6-9647e0aa499b" />
+### How can I report issues?
+
+You can report issues by navigating to the "Issues" tab in the repository and creating a new issue. Provide as much detail as possible to help us address the problem.
+
+---
+
+## Screenshots
+
+![Encryption Screen](https://via.placeholder.com/600x400?text=Encryption+Screen)  
+*The encryption screen allows users to easily encrypt files.*
+
+![Decryption Screen](https://via.placeholder.com/600x400?text=Decryption+Screen)  
+*The decryption screen is just as simple, making it easy to retrieve your files.*
+
+---
+
+For more information, please check the [Releases section](https://github.com/zehraouiothmane95/ADVANCED-ENCRYPTION-TOOL/releases) for the latest updates and downloads.
